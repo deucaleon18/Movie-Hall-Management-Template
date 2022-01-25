@@ -1,0 +1,164 @@
+/* 
+Default css */
+body{
+    background-image: url("assets/1552.jpg");
+    overflow: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+*{
+    border:0;
+    padding:0;
+
+}
+
+
+/* Home page */
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight:900;
+    color: #DAA520;
+}
+.title:hover{
+    color: #DAA520;
+}
+.wrapper{
+    display: flex;
+    margin-top: 17vh;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+    padding-top: 9px;
+    width: 19vw;
+    height: 50vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    background-color: #DAA520;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 20px 30px 0 rgba(0,0,0,0.5);
+}
+
+.card-title{
+    text-align:center;
+    font-weight: 800;
+    border-bottom: 2px solid black;
+}
+.card-description{
+    text-align:center;
+    height:36%;
+}
+.centre{
+  
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}  
+
+
+.footer{
+    color:white;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+}
+.copyright{
+    color:white;
+    margin-left:45vw;
+    text-align: center;color:rgb(46, 47, 49);
+    font-weight: 900;
+}
+.error{
+    padding-top: 2vh;
+    margin-left: 3vw;
+    font-size: x-large;
+    text-align: center;
+    font-weight: 900;
+}
+
+
+
+/* Movie Page : Page for specific movie*/
+.movie-page{ 
+   height: 100%;
+   width:100%;
+   display:flex;
+   text-align: center;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.movie-page-header{
+  padding:20px;
+  width: fit-content;
+  background-color: #A0522D;
+  border-radius: 5px;
+  font-size:1.2rem;
+  font-weight: 900;
+  margin: 10px;
+  border:6px solid white;
+  text-align: center;
+  color:white;
+}
+
+.movie-description{
+    padding:20px;
+    font-weight: 900;
+    border:6px solid white;
+    background-color: #A0522D;
+    font-size:1.2rem;
+    color:white;
+    width:80%;
+    margin:auto;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+.seats-display{
+    background-color: #FAFAD2; 
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:50%;
+    margin:auto;
+}
+
+.seat{
+    width:8%;
+    margin:5px;
+    /* padding:10px; */
+    display: flex;
+    align-items: center;
+}
+
+.submit-button{
+
+
+    height:50px;
+    width:150px;
+    margin-top:20px;
+}
+
+.submit-button:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+
+}
+
